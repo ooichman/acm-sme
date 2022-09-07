@@ -1,0 +1,7 @@
+required: true
+htpasswd: true
+htpasswdSecretName: my-htpasswd-secret
+clusters:
+  key: auth-htpasswd
+  value: "yes"
+remidiation: enforce
